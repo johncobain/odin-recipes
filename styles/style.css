@@ -1,3 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.container{
+    background-color: wheat;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#recipes{
+    margin: 20px;
+}
+
+a{
+    color: black;
+    padding: 12px;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+a:hover{
+    font-size: 17pt;
+}
+
+nav{
+    text-align: left;
+}
+
+#home{
+    color: black;
+    font-size: 17pt;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+#home:hover{
+    color: wheat;
+    background-color: black;
+}
+
 img{
     width: 300px;
+}
+
+#restaurant{
+    width: 800px;
 }
