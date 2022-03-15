@@ -7,7 +7,7 @@ body{
 .container{
     background-color: wheat;
     width: 50%;
-    height: 100vh;
+    height: 120vh;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -15,18 +15,19 @@ body{
 
 #recipes{
     margin: 20px;
+    height: 100px;
 }
 
 a{
     color: black;
     padding: 12px;
-    transition: 0.5s;
+    transition: 0.3s;
     font-weight: bold;
     font-size: 15pt;
 }
 
 a:hover{
-    font-size: 17pt;
+    color: white;
 }
 
 nav{
@@ -48,9 +49,15 @@ nav{
 }
 
 img{
-    width: 300px;
+    width: 400px;
+    border-radius: 5px;
 }
 
 #restaurant{
     width: 800px;
+}
+
+section{
+    text-align: left;
+    margin: 20px;
 }
